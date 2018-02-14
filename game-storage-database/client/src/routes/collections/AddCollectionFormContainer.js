@@ -23,7 +23,6 @@ class AddCollectionFormContainer extends Component{
 
   clearInputs(){
     this.setState({
-      id: #,
       name: '',
       slug: '',
       url: '',
@@ -41,10 +40,10 @@ class AddCollectionFormContainer extends Component{
       <div className='collection-content'>
         <form onChange={this.handleChange}>
           <input onSubmit={this.handleSubmit}
-            value={this.id}
-            name='id'
+            value={this.state.name}
+            name='name'
             type="number"
-            placeholder='#'/>
+            placeholder='Name'/>
         </form>
       </div>
     )

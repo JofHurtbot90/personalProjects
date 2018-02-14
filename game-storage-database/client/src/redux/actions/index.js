@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const SET_COLLECTIONS = 'SET_COLLECTIONS';
-const collectionUrl = 'https://api-endpoint.igdb.com/dc0f70b21eb384f33743ed958a1dd9f4/collections/'
+const collectionUrl = 'https://api-endpoint.igdb.com/collections/'
 const userUrl = 'http://localhost:7000/auth/';
 const profileUrl = 'http://localhost:7000/profile/';
 
