@@ -7,7 +7,6 @@ class AddCollectionFormContainer extends Component{
   constructor(){
     super();
     this.state = {
-      id: #
       name: '',
       slug: '',
       url: '',
